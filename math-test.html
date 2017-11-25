@@ -38,8 +38,7 @@
     $$
     <hr>
     <h1>Rodrigues' rotation formula</h1>
-    <hr>
-    Rotation of a vector \( \vec{v} \) around the unit vector \( \vec{a} \) in a right handed coordinate system is \( \mathbb{R}_{rh} \cdot \vec{v} \), where
+    Rotation of a vector \( \vec{v} \) around the unit vector \( \vec{a} \) is \( \mathbb{R}_{rh} \cdot \vec{v} \), where
     $$
       \mathbb{R}_{rh} = \mathbb{I} + \sin \alpha \cdot \mathbb{S} + (1 - \cos \alpha) \cdot \mathbb{S}^2
     $$
@@ -50,21 +49,6 @@
       = \phantom{+}\sin \alpha \cdot \begin{bmatrix} \vec{a} \end{bmatrix}_{\times} + (1 - \cos \alpha) \cdot \vec{a} \otimes \vec{a} + \cos \alpha \cdot \mathbb{I}
     $$
     <hr>
-    Rotation of a vector \( \vec{v} \) around the unit vector \( \vec{a} \) in a left handed coordinate system is \( \mathbb{R}_{lh} \cdot \vec{v} \), where
-    $$
-      \mathbb{R}_{lh} = \mathbb{R}_{rh}^{-1} = \mathbb{R}_{rh}^T
-    $$
-    $$
-      \mathbb{R}_{lh} = \mathbb{I} + \sin \alpha \cdot \mathbb{S}^T + (1 - \cos \alpha) \cdot \mathbb{S}^2 = \mathbb{I} - \sin \alpha \cdot \mathbb{S} + (1 - \cos \alpha) \cdot \mathbb{S}^2
-    $$
-    $$
-      = \sin \alpha \cdot \begin{bmatrix} \phantom{+}0\phantom{_x} & \phantom{+}a_z & -a_y \\ -a_z & \phantom{+}0\phantom{_y} & \phantom{+}a_x \\ \phantom{+}a_y & -a_x & \phantom{+}0\phantom{_z} \end{bmatrix} + (1 - \cos \alpha) \cdot \begin{bmatrix} a_x \cdot a_x & a_y \cdot a_x & a_z \cdot a_x \\ a_x \cdot a_y & a_y \cdot a_y & a_z \cdot a_y \\ a_x \cdot a_z & a_y \cdot a_z & a_z \cdot a_z \end{bmatrix} + \cos \alpha \cdot \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}
-    $$
-    $$
-      = -\sin \alpha \cdot \begin{bmatrix} \vec{a} \end{bmatrix}_{\times} + (1 - \cos \alpha) \cdot \vec{a} \otimes \vec{a} + \cos \alpha \cdot \mathbb{I}
-    $$
-    <hr>
     By Tor Olav Kristensen, 2017-11-25
-    <hr>
   </body>
 </html>
