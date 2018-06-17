@@ -1,8 +1,6 @@
 # Test
 For experimenting with git and github
 
-https://rawgit.com/t-o-k/Test/master/math-test.html
-
 # Rodrigues' rotation formula
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{100}&space;\small&space;\vec{a}&space;=&space;\begin{bmatrix}&space;a_x&space;\\&space;a_y&space;\\&space;a_z&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{100}&space;\small&space;\vec{a}&space;=&space;\begin{bmatrix}&space;a_x&space;\\&space;a_y&space;\\&space;a_z&space;\end{bmatrix}" title="\small \vec{a} = \begin{bmatrix} a_x \\ a_y \\ a_z \end{bmatrix}" /></a>
